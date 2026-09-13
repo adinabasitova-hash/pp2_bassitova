@@ -1,0 +1,6 @@
+i = 1
+while i < 6:
+  print(i) # runs while the condition i < 6 is True
+  i += 1
+else:
+  print("i is no longer less than 6")  # runs once the while condition becomes False (skipped if loop ends via break)
