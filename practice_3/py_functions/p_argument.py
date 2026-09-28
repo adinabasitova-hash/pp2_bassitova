@@ -1,6 +1,6 @@
 def describePet(name, animal, age):
   """Prints a short pet description using positinal arguments(order matters here)"""
-  print(f"My {animal} {name} is {age}years old")
+  print(f"My {animal} {name} is {age} years old")
 
   describePet('Dixie', 'cat', 3)
 
