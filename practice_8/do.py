@@ -62,6 +62,8 @@ def main():
     with con.cursor() as cur:
       with open('functions.sql') as f:
         cur.execute(f.read())
+      with open('procedures.sql') as p:
+        cur.execute(p.read())
       con.commit()
 
       while True:
